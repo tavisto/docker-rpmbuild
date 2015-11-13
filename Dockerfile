@@ -1,4 +1,4 @@
-FROM fedora
+FROM fedora:22
 MAINTAINER Tavis Aitken <tavisto@tavisto.net>
 
 RUN yum -y -q update && yum -y install rpmdevtools mock rpmlint git wget curl
